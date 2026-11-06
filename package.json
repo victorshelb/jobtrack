@@ -1,0 +1,25 @@
+{
+  "name": "jobtrack",
+  "version": "1.0.0",
+  "description": "Personal job application tracker",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --no-warnings server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "cookie-parser": "^1.4.7",
+    "docx": "^9.8.1",
+    "express": "^5.2.1",
+    "imapflow": "^2.2.1",
+    "mailparser": "^3.9.33",
+    "mammoth": "^1.13.0",
+    "multer": "^2.4.0",
+    "pdf-parse": "^1.1.1",
+    "web-push": "^3.6.7"
+  }
+}

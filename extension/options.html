@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>JobTrack: Connect</title><link rel="stylesheet" href="panel.css">
+<style>#root{max-width:520px;margin:40px auto} label{display:block;font-weight:600;font-size:.82rem;color:var(--muted);margin:10px 0 4px}</style></head>
+<body><div id="root"><div class="card">
+  <h1>Connect JobTrack</h1>
+  <p class="muted small">Find these in your JobTrack dashboard under <b>Settings → Browser extension</b>.</p>
+  <label>Server address</label><input id="server" placeholder="http://localhost:3005">
+  <label>Token</label><input id="token" type="password" placeholder="Paste token">
+  <div class="row" style="margin-top:14px"><button class="btn p" id="save">Save & test</button><span id="msg" class="small"></span></div>
+</div>
+<p class="small muted">Privacy: the extension only sends data to the server above, and only for pages you choose to track.</p></div>
+<script src="options.js"></script></body></html>
